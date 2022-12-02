@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>JULIETA MAGNO PORTFOLIO</title>
+    <link rel="shortcut icon" href="/Users/julietita/CodeAcademy/DevProyect.PORTFOLIO/idea_creative_conception_pen_management_concept_icon_230401.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/Users/julietita/CodeAcademy/DevProyect.PORTFOLIO/styles.css">
+    <link rel="stylesheet" href="./all.min.css">
+    <script src="https://kit.fontawesome.com/9752a44106.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body style="background-color:#1D1F20;">
+
+<!-- Nav -->
+
+      <nav class="header">
+
+        <ul class="navigation">
+          <li class="navigation-item"><a href="index.html">About me</a></li>
+          <li class="navigation-item"><a href="#concept">Concept</a></li>
+          <li class="navigation-item"><a href="#proyects">Proyects</a></li>
+          <li class="navigation-item"><a href="#skills">Skills</a></li>
+          <li class="navigation-item"><a href="contact.html">Contact</a></li>
+          <li id="fechahoy" class="navigation-item"><a></a></li>
+        </ul>
+
+      <div class="logo">
+        <p class="name">Julieta Magno</p>
+        <img class="name-image" src="IMAGENES/WhatsApp Image 2022-10-25 at 5.33.14 PM.jpeg"> 
+      </div>
+
+      </nav>
+
+<!-- Main -->
+
+  <main>
+    <section id="about-me"> 
+      <div class="about-me">
+        <div class="text">
+              <h1 id="blink">HELLO!</h2>
+              <h4>I'm a Full Stuck Developer and Designer. With my background in Architect and Urban Planner I try to  see the IT world in other way.</h4>   
+        </div>
+        <div class="image">
+          <img src="IMAGENES/me gusta 2.jpeg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section id="concept">
+      <div class="concept">
+      <div class="text">
+        <h4>What is my work concept?</h4>
+        <h5>We can build great things toghether, just you need contact me and tell you what you have in mind, what are your needs and goals for your development, and together we will find the way. </h5>
+      </div> 
+      <div class="background-img">
+      </div>
+    </div>
+      
+      
+    </section>
+
+    <section id="proyects">
+      <div class="proyects">
+      <div class="container">
+        <div class="title">
+          <h2>My Proyects</h2>
+          <h4>You can see what I did and imagine where we can go...</h4>
+        </div>
+        <div class="card">
+          <div>
+            <img src="IMAGENES/modelos paginas/plantilla-sitio-web-diseno-interfaz-usuario_23-2149182791.webp">
+            <h4>Fall Berry Biltz Tea</h4>
+          </div>
+          <div>
+            <img src="IMAGENES/modelos paginas/plantilla-diseno-web-tecnologia_23-2149216787.webp">
+            <h4>Spiced Rum Tea</h4>
+          </div>
+          <div>
+            <img src="IMAGENES/modelos paginas/plantilla-diseno-web-inspirada-tipografia_23-2149146604.webp">
+            <h4>Seasonal Donuts</h4>
+          </div>
+          <div>
+            <img src="IMAGENES/modelos paginas/plantilla-diseno-web-agencia-marketing-redes-sociales_23-2149073401.webp">
+            <h4>Myrtle Ave Tea</h4>
+          </div>
+          <div>
+            <img src="IMAGENES/modelos paginas/pantalla-dispositivos-digitales-editable_24972-2051.webp">
+            <h4>Bedford Bizarre Tea</h4>
+          </div>
+        </div>
+        </section>
+
+        <section id="skills">
+          <h2>Skills</h2>
+          <div id="skills-container">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+            <i class="fab fa-react"></i>
+            <i class="fab fa-aws"></i>
+            <i class="fab fa-sketch"></i>
+            <i class="fab fa-figma"></i>
+            <i class="fab fa-git"></i>
+            <i class="fab fa-chrome"></i>
+            <i class="fas fa-terminal"></i>
+            <i class="fas fa-universal-access"></i>
+            <i class="fab fa-npm"></i>
+            <i class="fab fa-node"></i>
+            <i class="fab fa-github"></i>
+          </div>
+        </section>
+
+  </main>
+      
+
+<!-- Footer -->
+
+<footer>Made with <span class="heart">♥</span> in Firenze</footer>
+
+</body>
+
+<script>
+  window.setInterval (BlinkIt, 500);
+  var color = "#C9A2D2";
+  function BlinkIt () {
+  var blink = document.getElementById ("blink");
+  color = (color == "seashell")? "#C9A2D2" : "seashell";
+  blink.style.color = color;
+  blink.style.fontSize='3rem';}
+  </script>
+
+<script>
+  var d=new Date();var month=new Array(12);month[0]='Enero';month[1]='Febrero';month[2]='Marzo';month[3]='Abril';month[4]='Mayo';month[5]='Junio';month[6]='Julio';month[7]='Agosto';month[8]='Septiembre';month[9]='Octubre';month[10]='Noviembre';month[11]='Diciembre';var todaysDate=+d.getDate()+' de '+month[d.getUTCMonth()]+' del '+d.getUTCFullYear();
+  document.getElementById('fechahoy').innerHTML='Hoy es: '+todaysDate;
+</script>
+
+</html>

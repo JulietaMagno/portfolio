@@ -2,6 +2,11 @@ html {
   font-size: 18px;
 }
 
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -10,13 +15,13 @@ html {
 
 @media only screen and (max-width: 750px) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
 @media only screen and (max-width: 530px) {
   html {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
   
@@ -29,9 +34,7 @@ html {
     height: 5rem;
     font-family: sans-serif;
     font-size: 1rem;
-    color: seashell;
-   
-    
+    color: seashell; 
   }
   
   .header .name {
@@ -70,12 +73,18 @@ html {
       color: #C9A2D2;
     }
 
+    .header a{
+      text-decoration: none;
+      color: #C9A2D2;
+    }
+
     #fechahoy {
       color: #C9A2D2;
       font-size: .7rem;
       font-family: 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
       margin-left: 4rem;
       padding-top: 2rem;
+      display: none;
     }
 
   .header li a:hover{
@@ -89,8 +98,7 @@ html {
       text-decoration: none;
   }
   
-
-  @media only screen and (max-width: 530px) {
+  @media only screen and (max-width: 750px) {
     .header {
         flex-direction: column;
       }
@@ -98,11 +106,10 @@ html {
     .header .logo {
         flex-grow: 0;
       }
-    }
+  }
 
     /*Banner Section*/
 
- 
 
 .about-me {
     display: flex;
@@ -147,25 +154,6 @@ html {
       width: auto;
       opacity: 0.6;
       }
-
-  @media only screen and (max-width: 1000px) {
-    .about-me {
-      height: 25rem;
-    }
-  
-    .about-me h2 {
-      margin-top: 2rem;
-      font-size: 2.2rem;
-    }
-
-    .about-me h4 {
-      font-size: 1.2rem;
-      width: 26rem;
-    }
-    .about-me img {
-      overflow: hidden;
-      }
-  }
 
   @media only screen and (max-width: 750px) {
     .about-me {
@@ -260,6 +248,8 @@ html {
     z-index: 3;
   }
 
+  
+
   /*proyects section*/
 
 .proyects {
@@ -340,7 +330,7 @@ box-shadow: 0 0 8px #285D3D;
   width: 100%;
   justify-content: space-between;
   margin-left: 2rem;
-  margin-right: 2rem;
+  margin-right: 0rem;
   flex-wrap: wrap;
 }
 

@@ -10,4 +10,4 @@ This is the source code for my portfolio website. I built this to showcase what 
 
 ## Demo
 
-You can visit the website by going .
+You can visit the website by going to https://julietamagno.github.io/portfolio/contact.html .

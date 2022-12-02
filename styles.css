@@ -225,7 +225,7 @@ html {
   }
 
   .concept .background-img {
-    background-image: url("/Users/julietita/CodeAcademy/DevProyect.PORTFOLIO/IMAGENES/pngjoy.com_lineas-lineas-blancas-png-transparent-png_322763.png");
+    background-image: url("IMAGENES/pngjoy.com_lineas-lineas-blancas-png-transparent-png_322763.png");
     background-size: cover;
     background-attachment: fixed;
     height: 15rem;    
